@@ -1,0 +1,8 @@
+# m0110a board configuration
+
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config BOARD_M0110A
+	bool "m0110a Keyboard"
+	depends on SOC_NRF52840_QIAA
